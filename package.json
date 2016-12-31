@@ -1,0 +1,43 @@
+{
+  "name": "svg.pathmorphing2.js",
+  "version": "0.1.0",
+  "description": "Another plugin for the svg.js library to enable path morphing / animation",
+  "main": "src/svg.pathmorphing2.js",
+  "keywords": [
+    "svg.js",
+    "pathmorphing",
+    "animation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RmiTtro/svg.pathmorphing2.js.git"
+  },
+  "bugs": "https://github.com/RmiTtro/svg.pathmorphing2.js/issues",
+  "license": "MIT",
+  "author": "Rémi Tétreault <tetreault.remi@gmail.com>",
+  "contributors": [
+    "Rémi Tétreault <tetreault.remi@gmail.com>"
+  ],
+  "scripts": {
+    "build": "webpack && npm run build:min",
+    "build:min": "webpack",
+    "test": "karma start"
+  },
+  "engines" : {
+    "npm" : ">= 3.0.0"
+  },
+  "dependencies": {
+    "svg.js": "^2.3.6",
+    "svg.point.js": "^0.1.0"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.8.1",
+    "webpack": "^1.14.0",
+    "webpack-merge": "^2.0.0"
+  }
+}
