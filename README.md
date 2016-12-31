@@ -91,7 +91,7 @@ var path1 = "M 90,119 71,88 41,107 54,73 20,61 54,50 43,16 l 29,19 19,-30 3,35 3
 
 
 ## Dependencies
-svg.js >= v2.3.6
+svg.js >= v2.3.6  
 svg.point.js >= v0.0.1
 
 ## License
